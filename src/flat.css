@@ -1,0 +1,30 @@
+.flat {
+    margin: 10px;
+    flex-basis: calc(50%-20px);
+    background-color: wheat;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 14px 13px 5px 0px rgba(0,0,0,0.31);
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.flat:hover {
+    transform: translateY(-4px);
+    opacity: 0.7;
+}
+.flat:active {
+    transform: translateY(3px);
+}
+
+.flat-picture {
+    height: 200px; 
+    background-size: cover;
+    background-position: center;
+}
+
+.flat-title { 
+    margin-top: 10px;
+    font-weight: bold;
+    width: 300px;
+}
